@@ -30,6 +30,7 @@ If you find this code useful, please consider citing the following paper.
     url={https://openreview.net/forum?id=OQo6Tuyo0ih},
     note={under review}
     }
+If you have any questions, please email me. (zwliang17@nudt.edu.cn)
 
 ## Acknowledgement
 We refer to the code of [xERTE](https://github.com/TemporalKGTeam/xERTE). Thanks for their contributions.
