@@ -1,7 +1,7 @@
-numpy==1.18.1
-torch==1.4.0
-scipy==1.4.1
-scikit-learn==0.22.1
-tqdm==4.43.0
-networkx==2.1
+networkx==2.5
+numpy==1.19.2
+py3nvml==0.2.7
 pymongo==3.10.1
+torch==1.6.0
+torch_scatter==2.0.5
+tqdm==4.54.1
