@@ -731,6 +731,8 @@ def load_checkpoint(checkpoint_dir, device='cpu', args=None):
             time_granularity = 1
         elif 'icews' in args.dataset.lower():
             time_granularity = 24
+        else：
+            time_granularity = 1
 
         nf = NeighborFinder(adj,rel_adj=rel_adj, sampling=args.sampling, max_time=max_time, num_entities=len(contents.id2entity),num_relations=contents.num_relations,
                             weight_factor=args.weight_factor, time_granularity=time_granularity,name=args.dataset)
