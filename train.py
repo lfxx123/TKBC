@@ -187,7 +187,8 @@ if __name__ == "__main__":
         elif 'icews' in args.dataset.lower():
             time_granularity = 24
         else:
-            raise ValueError
+            time_granularity = 1
+        #        raise ValueError
         nf = NeighborFinder(adj,rel_adj=rel_adj, sampling=args.sampling, max_time=max_time, num_entities=contents.num_entities,num_relations=contents.num_relations,
                             weight_factor=args.weight_factor, time_granularity=time_granularity, name = args.dataset) #生成每个实体直接相连的实体；并且生成每个时间戳的prior time便于后面处理
         # construct model
