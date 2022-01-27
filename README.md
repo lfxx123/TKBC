@@ -4,7 +4,7 @@ An Interpretable Multi-hop Reasoning (IMR) model for temporal KG forecasting.
 ![image](https://user-images.githubusercontent.com/49195527/143236285-d4c3d02e-4d4c-439e-987e-93e93cffeed3.png)
 
 
-This is the code of paper Interpretable Multi-hop Reasoning for Forecasting Future Links on Temporal Knowledge Graphs. Zongwei Liang, Junan Yang, Keju Huang, Hui Liu.
+<!-- This is the code of paper Interpretable Multi-hop Reasoning for Forecasting Future Links on Temporal Knowledge Graphs. Zongwei Liang, Junan Yang, Keju Huang, Hui Liu. -->
 
 ## Dependencies
 <!-- 库版本 -->
